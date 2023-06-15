@@ -13,11 +13,11 @@ override_dh_auto_build:
 	make epub
 	make pdf
 
-override_dh_auto_install:
+override_dh_auto_test:
 	# Nothing to do here ...
 
-override_dh_auto_test:
-	# ... or here
+override_dh_auto_install:
+	# Nothing to do here either
 
 #include /usr/share/dpkg/pkg-info.mk
 #
