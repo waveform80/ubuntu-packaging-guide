@@ -5,26 +5,29 @@ Maintainer: Ubuntu Developers <ubuntu-packaging-guide@packages.debian.org>
 Uploaders: Andrew Starr-Bochicchio <asb@debian.org>, Dmitry Shachnev <mitya57@debian.org>
 Build-Depends:
  debhelper-compat (= 13),
- cm-super-minimal,
- latexmk,
  python3-polib,
  python3-sphinx,
  python3-sphinx-copybutton,
  python3-sphinx-design,
  python3-stemmer,
  furo,
-#tex-gyre,
-#texlive-fonts-recommended,
+ cm-super-minimal,
+ tex-gyre,
+ texlive-xetex,
+ texlive-fonts-recommended,
 #texlive-lang-cyrillic,
 #texlive-lang-french,
 #texlive-lang-german,
 #texlive-lang-portuguese,
 #texlive-lang-spanish,
-#texlive-latex-extra,
-#texlive-latex-recommended,
+ texlive-latex-extra,
+ texlive-latex-recommended,
 #texlive-plain-generic | texlive-generic-extra
 #texlive-lang-cjk,
 #latex-cjk-japanese
+ fonts-freefont-otf,
+ xindy,
+ latexmk,
 Homepage: https://launchpad.net/ubuntu-packaging-guide
 Standards-Version: 4.6.2
 Rules-Requires-Root: no
