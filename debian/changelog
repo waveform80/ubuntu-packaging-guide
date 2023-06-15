@@ -1,3 +1,9 @@
+ubuntu-packaging-guide (2.0) mantic; urgency=medium
+
+  * First release of the new Ubuntu Packaging Guide.
+
+ -- Dave Jones <dave.jones@canonical.com>  Thu, 15 Jun 2023 16:44:23 +0100
+
 ubuntu-packaging-guide (1.0.4) unstable; urgency=medium
 
   * Build-depend on tex-gyre, to fix PDF docs build with Sphinx 4
