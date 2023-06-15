@@ -10,6 +10,8 @@ export IN_VENV=true
 override_dh_auto_build:
 	# Just build the docs
 	make html
+	make epub
+	make pdf
 
 override_dh_auto_install:
 	# Nothing to do here ...
