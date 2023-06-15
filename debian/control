@@ -46,21 +46,8 @@ Description: Ubuntu Packaging Guide - metapackage
  This is a metapackage, depending only on
  ubuntu-packaging-guide-html.
 
-Package: ubuntu-packaging-guide-common
-Depends: ${misc:Depends}
-Architecture: all
-Description: Ubuntu Packaging Guide - common files
- The Ubuntu Packaging Guide is a set of articles that should help you to get
- involved with packaging and development of Ubuntu. It's not meant to replace
- other great documentation like the Debian New Maintainer's Guide or the
- Debian policy, but serve as a starting point with easy and simple to
- understand articles.
- .
- This package contains some common files that are needed by HTML versions of
- the guide.
-
 Package: ubuntu-packaging-guide-html
-Depends: ubuntu-packaging-guide-common, ${misc:Depends}, ${sphinxdoc:Depends}
+Depends: ${misc:Depends}, ${sphinxdoc:Depends}
 Architecture: all
 Description: Ubuntu Packaging Guide - HTML guide
  The Ubuntu Packaging Guide is a set of articles that should help you to get
