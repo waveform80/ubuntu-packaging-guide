@@ -47,7 +47,7 @@ Description: Ubuntu Packaging Guide - metapackage
  ubuntu-packaging-guide-html.
 
 Package: ubuntu-packaging-guide-common
-Depends: libjs-sphinxdoc, ${misc:Depends}
+Depends: ${misc:Depends}
 Architecture: all
 Description: Ubuntu Packaging Guide - common files
  The Ubuntu Packaging Guide is a set of articles that should help you to get
@@ -60,7 +60,7 @@ Description: Ubuntu Packaging Guide - common files
  the guide.
 
 Package: ubuntu-packaging-guide-html
-Depends: ubuntu-packaging-guide-common, ${misc:Depends}
+Depends: ubuntu-packaging-guide-common, ${misc:Depends}, ${sphinxdoc:Depends}
 Architecture: all
 Description: Ubuntu Packaging Guide - HTML guide
  The Ubuntu Packaging Guide is a set of articles that should help you to get
@@ -72,7 +72,7 @@ Description: Ubuntu Packaging Guide - HTML guide
  This package contains the HTML version of the guide.
 
 Package: ubuntu-packaging-guide-pdf
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${sphinxdoc:Depends}
 Architecture: all
 Description: Ubuntu Packaging Guide - PDF guide
  The Ubuntu Packaging Guide is a set of articles that should help you to get
@@ -84,7 +84,7 @@ Description: Ubuntu Packaging Guide - PDF guide
  This package contains the PDF version of the guide.
 
 Package: ubuntu-packaging-guide-epub
-Depends: libjs-sphinxdoc, ${misc:Depends}
+Depends: ${misc:Depends}, ${sphinxdoc:Depends}
 Architecture: all
 Description: Ubuntu Packaging Guide - EPUB guide
  The Ubuntu Packaging Guide is a set of articles that should help you to get
