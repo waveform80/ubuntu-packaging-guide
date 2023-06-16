@@ -34,6 +34,14 @@ exclude_patterns = ['.sphinx/venv/*']
 copybutton_prompt_text = '$ '
 copybutton_only_copy_prompt_lines = False
 
+# -- Localization configuration ----------------------------------------------
+
+# Generate UUIDs and use a single domain for all translations (required for
+# certain translation systems, including Launchpad)
+gettext_uuid = True
+gettext_compact = 'ubuntu-packaging-guide'
+locale_dirs = ['../locales']
+
 # -- Options for HTML output -------------------------------------------------
 
 html_theme = 'furo'
