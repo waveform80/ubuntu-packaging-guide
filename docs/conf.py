@@ -40,7 +40,7 @@ copybutton_only_copy_prompt_lines = False
 # certain translation systems, including Launchpad)
 gettext_uuid = True
 gettext_compact = 'ubuntu-packaging-guide'
-locale_dirs = ['../locales']
+locale_dirs = ['../po']
 
 # -- Options for HTML output -------------------------------------------------
 
