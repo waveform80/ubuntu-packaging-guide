@@ -34,6 +34,11 @@ exclude_patterns = ['.sphinx/venv/*']
 copybutton_prompt_text = '$ '
 copybutton_only_copy_prompt_lines = False
 
+# -- Localization configuration ----------------------------------------------
+
+gettext_uuid = True
+gettext_compact = False
+
 # -- Options for HTML output -------------------------------------------------
 
 html_theme = 'furo'
