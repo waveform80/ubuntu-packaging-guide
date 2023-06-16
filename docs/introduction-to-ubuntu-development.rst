@@ -84,7 +84,7 @@ Another important tool regarding communication is bug reports. Whenever a
 defect is found in a package or piece of infrastructure, a bug report is
 filed in Launchpad. All information is collected in that report and its
 importance, status and assignee updated when necessary. This makes it an
-effective tool to stay on top of bugs in a package or project and organise
+effective tool to stay on top of bugs in a package or project and organize
 the workload.
 
 Upstream

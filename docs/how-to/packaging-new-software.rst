@@ -76,7 +76,7 @@ example files::
     $ cd hello/debian
     $ rm *ex *EX
 
-You should now customise each of the files.
+You should now customize each of the files.
 
 In ``debian/changelog`` change the
 version number to an Ubuntu version: ``2.10-0ubuntu1`` (upstream version 2.10,
