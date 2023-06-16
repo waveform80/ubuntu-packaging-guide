@@ -38,6 +38,9 @@ run:
 html:
 	$(IN_VENV); $(SPHINXBUILD) -b html "$(SOURCEDIR)" "$(BUILDDIR)"/html
 
+html-%:
+	$(IN_VENV); $(SPHINXBUILD) -b html -D language=$* "$(SOURCEDIR)" "$(BUILDDIR)"/html/$*
+
 epub:
 	$(IN_VENV); $(SPHINXBUILD) -b epub "$(SOURCEDIR)" "$(BUILDDIR)"/epub
 
