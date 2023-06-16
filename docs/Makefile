@@ -45,6 +45,9 @@ pdf:
 	$(IN_VENV); $(SPHINXBUILD) -b latex "$(SOURCEDIR)" "$(BUILDDIR)"/pdf
 	$(IN_VENV); $(MAKE) -C "$(BUILDDIR)"/pdf all-pdf
 
+gettext:
+	$(IN_VENV); $(SPHINXBUILD) -b gettext "$(SOURCEDIR)" "$(BUILDDIR)"/gettext
+
 serve:
 	$(PYTHON) -m http.server 8000 -d "$(BUILDDIR)"/html
 
